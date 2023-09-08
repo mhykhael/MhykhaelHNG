@@ -1,0 +1,63 @@
+body {
+    background-color: #726cf8;
+    background-image: linear-gradient(315deg, #726cf8 0%, #e975a8 74%);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make sure the body takes up the full viewport height */
+}
+
+
+main {
+    padding: 20px;
+    margin-left: 100px;
+}
+
+#hiName{
+    flex-direction: row;
+    margin-top: -50px;
+}
+
+h1 { 
+    font-size: 50px;
+    margin-left: -400px;
+    margin-right: -50px;
+}
+
+.box {
+    font: 2em sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 100px;
+    font-style: oblique; 
+}
+
+
+#myTrack img {
+    margin-top: 20px;
+    height: 40px;
+}
+
+.box img{
+    height: 60px;
+}
+
+
+
+.profile-container {
+    margin-right: 150px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%); /* Vertically center the image */
+}
+
+.profile-container img {
+    width: 200px; /* Adjust the width to your preference */
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
