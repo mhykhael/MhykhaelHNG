@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael Chibuike Okechukwu</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Michael Chibuike Okechukwu</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
 </head>
 <body>
-     <h1 data-testid id="slackUserName"> Mhykhael </h1>
-    <main>
-        <div class="profile-container">
-            <img src="hng_images/professional.png" data-testid="slackDisplayImage">
-        </div>
-        <div class="box">
-        <p data-testid="currentDayOfTheWeek" class="date"></p>
-        <p data-testid="currentUTCTime"></p>
-        <p data-testid id="myTrack">Frontend <img src="hng_images/code.png"></p>
-        <p>
-            <a href="https://github.com/mhykhael?tab=repositories" data-testid="githubURL"><img src="hng_images/github.png"></a>
-        </p>
-        </div>
-    </main>
+    <div class="container">
+        <h1 data-testid="slackUserName">Slack Name: Mhykhael</h1>
+        <main>
+            <div class="profile-container">
+                <img src="hng_images/professional.png" alt="Mhykhael" data-testid="slackDisplayImage">
+                <p class="image-description"> Slack Display Image </p>
+            </div>
+            <div class="box">
+                <p data-testid="currentDayOfTheWeek" class="date"></p>
+                <p data-testid="currentUTCTime"></p>
+                <p data-testid="myTrack">Frontend</p>
+                <p>
+                    <a href="https://github.com/mhykhael?tab=repositories" data-testid="githubURL">
+                        <img src="hng_images/github.png">
+                    </a>
+                </p>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
